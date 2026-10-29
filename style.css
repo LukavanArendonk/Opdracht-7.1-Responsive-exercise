@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #dd4b4b;
+    padding: 25px 50px;
+    color: white;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.section {
+    padding: 50px;
+    color: #1a1a1a;
+    text-align: left;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 1.1rem;
+}
+
+.section-1 {
+    background-color: #f3c115;
+}
+
+.section-2 {
+    background-color: #e68729;
+}
+
+.section-3 {
+    background-color: #68b968;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar {
+        justify-content: space-between;
+        background-color: #646bdb;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+    }
+
+    .section {
+        text-align: center;
+        color: #ffffff;
+        padding: 60px 40px;
+    }
+
+    .section h2 {
+        font-size: 2.2rem;
+    }
+
+    .section-1 {
+        background-color: #7ce3d5;
+    }
+
+    .section-2 {
+        background-color: #dc5de2;
+    }
+
+    .section-3 {
+        background-color: #2a3767;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+        position: relative;
+        background-color: #ff7476;
+        padding: 20px;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        right: 20px;
+    }
+
+    .section {
+        text-align: left;
+        padding: 40px 20px;
+        color: #ffffff;
+    }
+
+    .section h2 {
+        font-size: 1.8rem;
+    }
+
+    .section-1 {
+        background-color: #ff4d4d;
+    }
+
+    .section-2 {
+        background-color: #4f4fef;
+    }
+
+    .section-3 {
+        background-color: #3232ff;
+    }
+}
