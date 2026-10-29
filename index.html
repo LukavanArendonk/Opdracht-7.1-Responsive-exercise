@@ -5,62 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="main-header">
         <div class="logo">Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Over ons</a></li>
-                <li><a href="#">Diensten</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Over ons</a>
+            <a href="#">Diensten</a>
+            <a href="#">Contact</a>
         </nav>
+
         <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+            <i class="fas fa-bars"></i>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Welkom!</h1>
-                <p>Dit is een voorbeeld van een responsive website. De lay-out past zich aan aan de schermgrootte.</p>
-                <button class="btn">Lees meer</button>
-            </div>
-        </section>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welkom!</h1>
+            <p>Dit is een voorbeeld van een responsive website.<br>De lay-out past zich aan aan de schermgrootte.</p>
+            <a href="#" class="btn">Lees meer</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Berglandschap met meer">
+        </div>
+    </section>
 
-        <section class="features">
-            <div class="card webdesign">
-                <i class="icon fa-solid fa-laptop"></i>
+    <section class="services">
+        <div class="service-box bg-orange">
+            <i class="fas fa-laptop"></i>
+            <div class="service-text">
                 <h2>Webdesign</h2>
                 <p>Wij maken moderne en gebruiksvriendelijke websites op maat.</p>
             </div>
-            <div class="card ontwikkeling">
-                <i class="icon fa-solid fa-code"></i>
+        </div>
+
+        <div class="service-box bg-purple">
+            <i class="fas fa-code"></i>
+            <div class="service-text">
                 <h2>Ontwikkeling</h2>
                 <p>We bouwen snelle en veilige webapplicaties met de nieuwste technologieën.</p>
             </div>
-            <div class="card ondersteuning">
-                <i class="icon fa-solid fa-users"></i>
+        </div>
+
+        <div class="service-box bg-green">
+            <i class="fas fa-users"></i>
+            <div class="service-text">
                 <h2>Ondersteuning</h2>
                 <p>Ook na oplevering staan we voor je klaar.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="cta">
-            <h2>Samen bouwen aan jouw online succes</h2>
-            <p>Of je nu een kleine onderneming hebt of een groot bedrijf, wij helpen je graag met het realiseren van
-                jouw digitale doelen.</p>
-        </section>
-    </main>
+    <section class="cta">
+        <h2>Samen bouwen aan jouw online succes</h2>
+        <p>Of je nu een kleine onderneming hebt of een groot bedrijf, wij helpen je graag<br>met het realiseren van jouw
+            digitale doelen.</p>
+    </section>
 
 </body>
 
