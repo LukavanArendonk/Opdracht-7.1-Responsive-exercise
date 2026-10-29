@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Design</title>
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header class="navbar">
+    <header>
         <div class="logo">Logo</div>
-        <div class="menu-icon"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Over ons</a></li>
+                <li><a href="#">Diensten</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
 
     <main>
-        <section class="section section-1">
-            <h2>Title 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum numquam nemo mollitia quibusdam hic
-                exercitationem sint excepturi minus ea, repellat, unde rem nostrum tenetur? Error nemo aspernatur esse
-                quis!</p>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welkom!</h1>
+                <p>Dit is een voorbeeld van een responsive website. De lay-out past zich aan aan de schermgrootte.</p>
+                <button class="btn">Lees meer</button>
+            </div>
         </section>
 
-        <section class="section section-2">
-            <h2>Title 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum numquam nemo mollitia quibusdam hic
-                exercitationem sint excepturi minus ea, repellat, unde rem nostrum tenetur? Error nemo aspernatur esse
-                quis!</p>
+        <section class="features">
+            <div class="card webdesign">
+                <i class="icon fa-solid fa-laptop"></i>
+                <h2>Webdesign</h2>
+                <p>Wij maken moderne en gebruiksvriendelijke websites op maat.</p>
+            </div>
+            <div class="card ontwikkeling">
+                <i class="icon fa-solid fa-code"></i>
+                <h2>Ontwikkeling</h2>
+                <p>We bouwen snelle en veilige webapplicaties met de nieuwste technologieën.</p>
+            </div>
+            <div class="card ondersteuning">
+                <i class="icon fa-solid fa-users"></i>
+                <h2>Ondersteuning</h2>
+                <p>Ook na oplevering staan we voor je klaar.</p>
+            </div>
         </section>
 
-        <section class="section section-3">
-            <h2>Title 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum numquam nemo mollitia quibusdam hic
-                exercitationem sint excepturi minus ea, repellat, unde rem nostrum tenetur? Error nemo aspernatur esse
-                quis!</p>
+        <section class="cta">
+            <h2>Samen bouwen aan jouw online succes</h2>
+            <p>Of je nu een kleine onderneming hebt of een groot bedrijf, wij helpen je graag met het realiseren van jouw digitale doelen.</p>
         </section>
     </main>
 
 </body>
-
 </html>
