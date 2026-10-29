@@ -104,7 +104,7 @@ nav a {
     width: 100%;
     border-radius: 8px;
     display: block;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .features {
@@ -129,16 +129,16 @@ nav a {
     font-family: Georgia, serif;
 }
 
-.webdesign { 
-    background-color: var(--card1-bg); 
+.webdesign {
+    background-color: var(--card1-bg);
 }
 
-.ontwikkeling { 
-    background-color: var(--card2-bg); 
+.ontwikkeling {
+    background-color: var(--card2-bg);
 }
 
-.ondersteuning { 
-    background-color: var(--card3-bg); 
+.ondersteuning {
+    background-color: var(--card3-bg);
 }
 
 .cta {
@@ -169,12 +169,12 @@ nav a {
         --text-dark: #ffffff;
     }
 
-    nav ul { 
-        display: none; 
+    nav ul {
+        display: none;
     }
-    
-    .hamburger { 
-        display: flex; 
+
+    .hamburger {
+        display: flex;
     }
 
     .hero {
